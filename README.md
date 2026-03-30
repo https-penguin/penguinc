@@ -5,5 +5,7 @@
 COMMANDS 
 1. git clone https://github.com/https-penguin/penguinc.git
 cd penguinc
+python -m venv venv
+source venv/bin/activate
 pip install colorama termcolor
 python main.py
